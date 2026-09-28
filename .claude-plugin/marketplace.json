@@ -1,0 +1,12 @@
+{
+  "name": "static-ads-skill",
+  "owner": { "name": "you" },
+  "metadata": { "description": "Claude Code plugins for making static product ads in code." },
+  "plugins": [
+    {
+      "name": "static-ads",
+      "source": "./plugins/static-ads",
+      "description": "Make static product ads (social, display, feed, stories) in code, built on the product's own design system, components and voice."
+    }
+  ]
+}

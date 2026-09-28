@@ -1,0 +1,7 @@
+{
+  "name": "static-ads",
+  "version": "0.1.0",
+  "description": "Make static product ads (social feed, stories, LinkedIn, display banners) in code from the product's own components, tokens, logo and voice. Asks what to include, then handles discovery, concepts, copy variants, one layout per aspect, safe zones, export to exact sizes and file limits, and verification.",
+  "license": "MIT",
+  "keywords": ["ads", "static-ads", "social", "display", "banners", "design-system", "playwright"]
+}

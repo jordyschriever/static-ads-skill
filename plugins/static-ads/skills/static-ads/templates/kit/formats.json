@@ -1,0 +1,16 @@
+{
+  "_note": "Defaults. Platform specs change: check the current ad specs of each platform before a launch and edit this file. safe = pixels kept free of text and logo on each side. maxKB = file weight limit (null = no practical limit). minTextPx = smallest CSS font size allowed.",
+  "formats": {
+    "feed-square":        { "w": 1080, "h": 1080, "class": "square",    "channels": ["meta", "linkedin", "x"], "safe": { "top": 60,  "right": 60, "bottom": 60,  "left": 60 }, "type": "png", "maxKB": 30000, "minTextPx": 28 },
+    "feed-portrait":      { "w": 1080, "h": 1350, "class": "portrait",  "channels": ["meta"],                  "safe": { "top": 60,  "right": 60, "bottom": 60,  "left": 60 }, "type": "png", "maxKB": 30000, "minTextPx": 28 },
+    "story":              { "w": 1080, "h": 1920, "class": "story",     "channels": ["meta"],                  "safe": { "top": 270, "right": 65, "bottom": 670, "left": 65 }, "type": "png", "maxKB": 30000, "minTextPx": 32 },
+    "linkedin-landscape": { "w": 1200, "h": 627,  "class": "landscape", "channels": ["linkedin"],              "safe": { "top": 48,  "right": 48, "bottom": 48,  "left": 48 }, "type": "png", "maxKB": 5000,  "minTextPx": 26 },
+    "x-landscape":        { "w": 1200, "h": 675,  "class": "landscape", "channels": ["x"],                     "safe": { "top": 48,  "right": 48, "bottom": 48,  "left": 48 }, "type": "png", "maxKB": 5000,  "minTextPx": 26 },
+    "mrec":               { "w": 300,  "h": 250,  "class": "small",     "channels": ["display"],               "safe": { "top": 10,  "right": 10, "bottom": 10,  "left": 10 }, "type": "jpg", "maxKB": 150,   "minTextPx": 12 },
+    "half-page":          { "w": 300,  "h": 600,  "class": "tall",      "channels": ["display"],               "safe": { "top": 12,  "right": 12, "bottom": 12,  "left": 12 }, "type": "jpg", "maxKB": 150,   "minTextPx": 12 },
+    "skyscraper":         { "w": 160,  "h": 600,  "class": "tall",      "channels": ["display"],               "safe": { "top": 10,  "right": 8,  "bottom": 10,  "left": 8  }, "type": "jpg", "maxKB": 150,   "minTextPx": 11 },
+    "leaderboard":        { "w": 728,  "h": 90,   "class": "wide",      "channels": ["display"],               "safe": { "top": 8,   "right": 12, "bottom": 8,   "left": 12 }, "type": "jpg", "maxKB": 150,   "minTextPx": 12 },
+    "billboard":          { "w": 970,  "h": 250,  "class": "wide",      "channels": ["display"],               "safe": { "top": 16,  "right": 20, "bottom": 16,  "left": 20 }, "type": "jpg", "maxKB": 150,   "minTextPx": 14 },
+    "mobile-banner":      { "w": 320,  "h": 50,   "class": "wide",      "channels": ["display"],               "safe": { "top": 4,   "right": 8,  "bottom": 4,   "left": 8  }, "type": "jpg", "maxKB": 150,   "minTextPx": 11 }
+  }
+}
