@@ -9,7 +9,7 @@ Adapted from [product-film](https://github.com/Rieranthony/product-film-skill) (
 In Claude Code, from this repo pushed to GitHub:
 
 ```
-/plugin marketplace add <you>/static-ads-skill
+/plugin marketplace add jordyschriever/static-ads-skill
 /plugin install static-ads@static-ads-skill
 ```
 
